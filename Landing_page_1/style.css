@@ -1,0 +1,111 @@
+*{
+    margin: 0%; 
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    
+}
+
+
+
+
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(wave.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+
+    
+
+}
+
+
+
+.logo{
+    
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 25%;
+    color: rgb(46, 29, 199); 
+    font-size: larger;
+    
+    
+
+}
+
+
+.menu{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+
+}
+.menu a{
+    
+    
+    color: rgb(12, 12, 13);
+    margin: 7px;
+    text-decoration: none; 
+    padding: 10px 20px;
+    border-radius: 40% 0% 40% 0%;
+    
+    
+
+    
+}
+
+.container{
+    
+    padding: 0px 40px 40px;
+    position: relative;
+    
+}
+
+.container h1{
+   
+    display: flex;
+    margin: 3%;
+    text-shadow: 1px 1px 3px black  ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: max-content;
+    
+    
+}
+
+p{
+   
+    font-size: large;
+    padding: 5%;
+    text-align: left;
+    color: black;
+    height: 60%;
+    width: 50%;
+    content: justify;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+    
+    background-repeat: no-repeat;
+    height: 45%;
+    width: 40%;
+    top: 5%;
+    position: absolute;
+    margin: 0% 50% 10%; 
+}
+
+
+    
+    
+
+    
+
+
+    
+
+
+
+
+
