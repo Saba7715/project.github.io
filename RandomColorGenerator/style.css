@@ -1,0 +1,57 @@
+*{
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    transition: all 0.2s linear;
+}
+body{
+    background-color: rgb(31, 34, 34);
+    padding: 5rem 9%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    color: rgb(200, 219, 74);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    
+}
+
+button{
+    background-color: rgb(116, 254, 247);
+    color: rgb(9, 9, 10);
+    font-size: 2rem;
+    padding: 1rem 1.5rem ;
+    cursor: pointer;
+    border-radius: 1rem;
+
+}
+
+.container{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.container .box h2{
+    background-color: black;
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 2.5rem;
+    padding: 4rem 6rem;
+   
+}
+
+.container .box{
+    background-color: rgb(204, 187, 221);
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2);
+}
